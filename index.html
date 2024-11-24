@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hail Global</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+</head>
+<body>
+    <header class="header">
+        <div class="hamburger" id="hamburger">
+            ☰
+        </div>
+        
+        <div class="container">
+            <div class="logo">CompanyLogo</div>
+            <nav class="nav">
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#testimonials">Testimonials</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" id="hero">
+        <div class="container">
+            <h1>Welcome to Our Company</h1>
+            <p>Your trusted partner in innovation and excellence.</p>
+            <a href="#contact" class="btn-primary">Get Started</a>
+        </div>
+    </section>
+
+    <section class="about" id="about" data-aos="fade-up">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are committed to delivering top-notch solutions to help you succeed in your business journey.</p>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-cards">
+                <div class="card">
+                    <h3>Service 1</h3>
+                    <p>Exceptional service description.</p>
+                </div>
+                <div class="card">
+                    <h3>Service 2</h3>
+                    <p>Innovative solutions tailored for you.</p>
+                </div>
+                <div class="card">
+                    <h3>Service 3</h3>
+                    <p>Helping you achieve success.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <h2>What Our Clients Say</h2>
+            <div class="testimonial">
+                <p>"Fantastic service and great support!"</p>
+                <span>- Happy Client</span>
+            </div>
+            <div class="testimonial">
+                <p>"A team of professionals who care about the client."</p>
+                <span>- Satisfied Customer</span>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <section class="contact" id="contact">
+                <div class="container">
+                    <h2>Contact Us</h2>
+                    <form id="contactForm">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                        <input type="email" id="email" placeholder="Your Email" required>
+                        <textarea id="message" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn-primary">Send Message</button>
+                        <p id="formMessage" class="hidden">Thank you for your message!</p>
+                    </form>
+                </div>
+            </section>
+            
+            <p>© 2024 Hail Global. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
