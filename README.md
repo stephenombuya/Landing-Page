@@ -1,117 +1,170 @@
-# **Landing Page for Hail Global**
-Welcome to the Landing Page repository for Hail Global. This project is designed to serve as an engaging and responsive front page that showcases the company’s brand, products, or services effectively.
+# Hail Global Website
 
-### **Table of Contents**
-- Overview
-- Features
-- Technologies Used
-- Installation
-- Usage
-- File Structure
-- Contribution Guidelines
-- License
+A modern, responsive corporate website built with React, TypeScript, and Tailwind CSS.
 
+![Hail Global Website](https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=1200)
 
-### **Overview**
-The Landing Page is a dynamic and visually appealing webpage designed to:
-- Provide a great first impression of [Company Name].
-- Highlight the company’s mission, services, or products.
-- Improve user engagement with animations and interactive elements.
+## 🚀 Features
 
-This repository contains all the resources and code necessary to build and deploy the landing page.
+- Responsive design that works on all devices
+- Modern UI with smooth animations and transitions
+- Interactive image gallery with filtering capabilities
+- Contact form with validation
+- Mobile-friendly navigation
+- Performance optimized
+- SEO friendly
 
+## 🛠️ Technologies Used
 
+- React 18
+- TypeScript
+- Tailwind CSS
+- Vite
+- Lucide Icons
 
-### **Features**
-- **Responsive Design**: Optimized for desktop, tablet, and mobile devices.
-- **Interactive Elements**: Includes animations and hover effects.
-- **Call-to-Actions (CTAs)**: Strategically placed buttons for better conversions.
-- **Smooth Animations**: Powered by libraries like GSAP and AOS.
-- **Form Handling**: Functional contact or subscription forms.
-- **Fast Loading**: Optimized assets for better performance.
+## 📁 Project Structure
 
+```
+src/
+├── components/
+│   ├── Header/
+│   ├── Hero/
+│   ├── Services/
+│   ├── Gallery/
+│   │   ├── Gallery.tsx
+│   │   ├── GalleryImage.tsx
+│   │   ├── ImageModal.tsx
+│   │   ├── galleryData.ts
+│   │   ├── useGalleryFilter.ts
+│   │   └── index.ts
+│   ├── Testimonials/
+│   ├── Contact/
+│   └── Footer/
+├── App.tsx
+├── main.tsx
+└── index.css
+```
 
-### **Technologies Used**
-- **HTML5**: For structuring content.
-- **CSS3**: For styling and layout.
-- **JavaScript (ES6)**: For interactivity and dynamic features.
-- **GSAP (GreenSock Animation Platform)**: For advanced animations.
-- **AOS (Animate on Scroll)**: For scroll-based animations.
+## 🚀 Getting Started
 
+### Prerequisites
 
-### **Installation**
-To set up the project locally, follow these steps:
+- Node.js (v14 or higher)
+- npm or yarn
+
+### Installation
 
 1. Clone the repository:
-
-```
-git clone https://github.com/stephenombuya/Landing-Page/tree/main
-```
-
-2. Navigate to the project directory:
-
-```
-cd landing-page
+```bash
+git clone https://github.com/yourusername/hail-global.git
 ```
 
-3. Open the index.html file in your browser or use a local server for testing:
-    - If using VS Code, you can use the "Live Server" extension.
-    - Run the command:
-
-```
-npx serve
+2. Install dependencies:
+```bash
+npm install
 ```
 
-
-### **Usage**
-1. Modify the Content:
-    - Edit the index.html file to update the company name, tagline, and other content.
-
-2. Customize the Styles:
-    - Update the styles.css file to match your brand’s color scheme and typography.
-
-3. Add or Update Animations:
-    - Modify the animation configurations in the scripts.js file for tailored interactions.
-
-4. Deploy the Website:
-    - Use GitHub Pages, Netlify, or any other hosting service for deployment.
-
-
-
-### **File Structure**
-
-```
-├── index.html            
-├── styles.css      
-├── scripts.js  
-├── README.md            
+3. Start the development server:
+```bash
+npm run dev
 ```
 
-
-
-### **Contribution Guidelines**
-We welcome contributions to improve this project! To contribute:
-1. Fork the repository.
-2. Create a new branch for your feature or bugfix:
-
-```
-git checkout -b feature-name
+4. Build for production:
+```bash
+npm run build
 ```
 
-3. Commit your changes:
+## 🎨 Component Documentation
 
-```
-git commit -m "Add feature-name"
-```
+### Header
+- Responsive navigation menu
+- Mobile hamburger menu
+- Smooth scroll navigation
+- Fixed positioning with backdrop blur
 
-4. Push to the branch:
+### Hero
+- Full-screen hero section
+- Background image with overlay
+- Call-to-action buttons
+- Responsive text sizing
 
-```
-git push origin feature-name
-```
+### Services
+- Grid layout for service cards
+- Icon integration with Lucide
+- Hover animations
+- Responsive grid system
 
-5. Submit a Pull Request (PR).
+### Gallery
+- Filterable image gallery
+- Modal image viewer
+- Lazy loading images
+- Category filtering
+- Hover effects
 
-   
-### **License**
-This project is licensed under the Apache 2.0 License. Feel free to use and adapt it for your own projects.
+### Testimonials
+- Client testimonials with ratings
+- Responsive grid layout
+- Star rating system
+- Clean, modern design
+
+### Contact
+- Form validation
+- Success message handling
+- Responsive design
+- Accessible form fields
+
+### Footer
+- Multi-column layout
+- Social media links
+- Quick navigation links
+- Copyright information
+
+## 🔧 Configuration
+
+### Tailwind Configuration
+The project uses a custom Tailwind configuration for:
+- Custom colors
+- Extended theme options
+- Responsive breakpoints
+- Custom animations
+
+### TypeScript Configuration
+- Strict mode enabled
+- Path aliases configured
+- React 18 types included
+
+## 📱 Responsive Design
+
+The website is fully responsive with breakpoints at:
+- Mobile: 0-640px
+- Tablet: 641-1024px
+- Desktop: 1025px+
+
+## 🔍 SEO Optimization
+
+- Semantic HTML structure
+- Meta tags optimization
+- Responsive images
+- Performance optimization
+
+## 🚀 Deployment
+
+The website is deployed on Netlify with automatic deployments from the main branch.
+
+Live URL: https://hailglobal.netlify.app/
+
+## 📄 License
+
+This project is licensed under the Apache 2.0 License - see the `LICENSE` file for details.
+
+## 👥 Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📞 Support
+
+For support, email contact@hailglobal.com or create an issue in the repository.
